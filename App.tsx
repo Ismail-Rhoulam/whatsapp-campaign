@@ -26,14 +26,14 @@ const App: React.FC = () => {
     contacts: 1413,
     sent: 1308,
     delivered: 1226,
-    read: 490,
-    clicked: 130,
+    read: 525,
+    clicked: 137,
   };
 
   const kpis: KPIResult = {
-    campaignCost: 28.13,
+    campaignCost: 28.22,
     costPerMessage: 0.02,
-    costPerClick: 0.22,
+    costPerClick: 0.21,
     optOut: 4,
     showedInterest: 3,
     formSubmission: 2,
