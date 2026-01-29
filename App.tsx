@@ -86,8 +86,8 @@ const App: React.FC = () => {
           <KPICard label="Contacts" value={campaignData.contacts.toLocaleString()} icon={<Users className="w-5 h-5" />} />
           <KPICard label="Sent" value={campaignData.sent.toLocaleString()} icon={<Send className="w-5 h-5" />} />
           <KPICard label="Delivered" value={campaignData.delivered.toLocaleString()} icon={<CheckCircle className="w-5 h-5" />} />
-          <KPICard label="Read" value={campaignData.read.toLocaleString()} icon={<MailOpen className="w-5 h-5" />} trend={{ value: "34.5%", isPositive: true }} />
-          <KPICard label="Clicked" value={campaignData.clicked.toLocaleString()} icon={<MousePointer2 className="w-5 h-5" />} trend={{ value: "10.6%", isPositive: false }} />
+          <KPICard label="Read" value={campaignData.read.toLocaleString()} icon={<MailOpen className="w-5 h-5" />}/>
+          <KPICard label="Clicked" value={campaignData.clicked.toLocaleString()} icon={<MousePointer2 className="w-5 h-5" />}/>
           <KPICard label="CTR" value={`${((campaignData.clicked / campaignData.read) * 100).toFixed(1)}%`} icon={<Zap className="w-5 h-5" />} />
         </div>
 
