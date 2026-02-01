@@ -1,23 +1,23 @@
 # WhatsApp Campaign
 
-A campaign management tool for sending and managing WhatsApp outreach at scale.
+A dashboard providing insights into WhatsApp campaign performance.
 
-This repository contains the codebase for a WhatsApp campaign application designed to structure, automate, and manage messaging campaigns for marketing, notifications, or internal communication use cases.
+This repository contains the codebase for a WhatsApp campaign analytics application designed to visualize, analyze, and explore messaging campaign data for marketing, notifications, or internal communication use cases.
 
 ---
 
 ## 🧠 Project Overview
 
-The goal of this project is to simplify the creation and execution of WhatsApp campaigns by providing a clean and extensible foundation.
+The goal of this project is to provide clear visibility into WhatsApp campaign performance through a clean and extensible dashboard.
 
 Key objectives:
 
-- Define and manage WhatsApp campaigns in a structured way
-- Support automation-friendly messaging workflows
-- Enable easy integration with WhatsApp APIs or third-party providers
-- Provide a scalable base for analytics and campaign iteration
+- Surface insights and metrics related to WhatsApp campaigns
+- Enable exploration of campaign performance over time
+- Provide a scalable foundation for analytics and reporting
+- Support integration with WhatsApp APIs or third-party data sources
 
-This project can be adapted for marketing campaigns, transactional messaging, or internal communication flows.
+This project is intended for monitoring and analysis purposes only and does not handle campaign creation, message sending, or automation.
 
 ---
 
