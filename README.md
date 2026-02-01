@@ -1,20 +1,133 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# WhatsApp Campaign
 
-# Run and deploy your AI Studio app
+A campaign management tool for sending and managing WhatsApp outreach at scale.
 
-This contains everything you need to run your app locally.
+This repository contains the codebase for a WhatsApp campaign application designed to structure, automate, and manage messaging campaigns for marketing, notifications, or internal communication use cases.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1-E2Dbx1hYdkYd5T6AkwyFE7zYTKnoEkT
+---
 
-## Run Locally
+## 🧠 Project Overview
 
-**Prerequisites:**  Node.js
+The goal of this project is to simplify the creation and execution of WhatsApp campaigns by providing a clean and extensible foundation.
 
+Key objectives:
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- Define and manage WhatsApp campaigns in a structured way
+- Support automation-friendly messaging workflows
+- Enable easy integration with WhatsApp APIs or third-party providers
+- Provide a scalable base for analytics and campaign iteration
+
+This project can be adapted for marketing campaigns, transactional messaging, or internal communication flows.
+
+---
+
+## 🚀 Features
+
+- Campaign-based message organization
+- Reusable message templates
+- Scalable architecture for automation
+- Ready for API-based WhatsApp integrations
+- Clean and extensible project structure
+
+---
+
+## 🛠️ Getting Started
+
+### Prerequisites
+
+- **Node.js** v16 or higher
+- **npm**, **yarn**, or **pnpm**
+- Access to a WhatsApp API provider (if applicable)
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Ismail-Rhoulam/whatsapp-campaign.git
+cd whatsapp-campaign
+```
+
+Install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+```
+
+Run the project in development mode:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+---
+
+## 📦 Available Scripts
+
+| Script | Description |
+|------|-------------|
+| `dev` | Run the app in development mode |
+| `build` | Build the app for production |
+| `start` | Run the production build |
+| `lint` | Run linting |
+
+---
+
+## 📁 Project Structure
+
+```text
+src/                  Application source code
+public/               Static assets
+config/               Configuration files
+package.json          Project metadata and scripts
+tsconfig.json         TypeScript configuration
+```
+
+---
+
+## 🔌 WhatsApp Integration
+
+This project is designed to work with WhatsApp messaging providers such as:
+
+- WhatsApp Business API
+- Cloud-based WhatsApp APIs
+- Third-party messaging platforms
+
+Integration details depend on the provider and are intentionally decoupled from the core campaign logic.
+
+---
+
+## 🌍 Deployment
+
+The application can be deployed on any Node.js-compatible hosting platform.
+
+Typical deployment steps:
+
+- Build the project using `npm run build`
+- Deploy the output to your hosting provider
+- Configure environment variables for API credentials
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome.
+
+Suggested workflow:
+
+- Fork the repository
+- Create a feature branch
+- Commit your changes
+- Open a Pull Request
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+See the [LICENSE](LICENSE) file for details.
